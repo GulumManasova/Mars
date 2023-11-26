@@ -1,1 +1,46 @@
+description of the code:
 
+1.Initialization:
+
+cargo_weight: Represents the total weight of the hidden cargo (set to 713 kilograms).
+distance_to_city: Indicates the distance to the city (7 kilometers).
+boxes: An array used to represent the buried boxes at different locations, initially set to [0, 0, 0].
+
+2.Welcome Message:
+Displays a welcome message to the Martian, explaining the task at hand.
+
+3.Main Loop:
+The program enters a while True loop, which runs until the Martian successfully finds the cargo.
+
+4.User Input Loop:
+Prompts the user (Martian) to input kilometer marks where they think the cargo might be buried.
+A nested loop iterates for each of the three boxes, allowing the user to provide input for each box.
+
+5.Input Validation:
+Utilizes a try-except block to handle potential ValueError exceptions if the user enters a non-integer input.
+If an invalid input is detected, an error message is displayed, and the user is prompted to enter a valid kilometer mark.
+
+
+6.Moving Boxes with Tentacles:
+Simulates the movement of boxes with tentacles. For each box, it iterates over all boxes (excluding the current one) and calls the move_box_with_tentacles function.
+
+7.Updating Box Locations:
+Updates the location of the current box based on the user's input.
+
+8.Checking Total Weight:
+After input for all three boxes, the program checks if the total weight of the found boxes is equal to the cargo weight.
+
+9.Outcome:
+If the weights match, a congratulatory message is displayed, and the program breaks out of the loop.
+If the weights do not match, an error message is shown, and the user is prompted to try again.
+
+
+10.Closing Message:
+Once the cargo is found, a thank-you message is displayed to the Earthling (user).
+
+11.Helper Function: move_box_with_tentacles:
+Simulates moving a box to a new location by incrementing the value at the specified box index in the boxes array.
+
+12.Script Execution:
+
+The if __name__ == "__main__": block ensures that the main() function is executed when the script is run directly, not when it's imported as a module.
