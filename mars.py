@@ -1,3 +1,4 @@
+import random
 def main():
     cargo_weight = 713
     distance_to_city = 7
