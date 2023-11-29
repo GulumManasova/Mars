@@ -1,7 +1,7 @@
 A terminal-based application was developed to aid visitors from Mars in pinpointing their precious cargo concealed along their terrestrial journey. Faced with the need for spare parts to mend their malfunctioning spacecraft, the Martians strategically buried their cargo within three containers of diverse sizes along a 7-kilometer trajectory leading to the nearest urban center. The combined weight of the cargo amounted to 713 kilograms, and it was cunningly concealed with markers denoting both distance and weight.
 
 This program employs one-dimensional arrays to register kilometer markers, potentially revealing the location of the cargo. However, here's the intriguing twist - the boxes are equipped with appendages resembling tentacles that autonomously shift them to new covert positions if the initially input kilometer markers prove inaccurate. The program systematically solicits users for three markers in succession, validating the presence of cargo at each specified point. Should the cumulative weight of the discovered boxes fail to reach the specified 713 kilograms, the process iterates until the accurate markers are entered, ensuring the successful recovery of the Martian cargo.
-![Boxes](https://github.com/GulumManasova/Mars/blob/main/IMAGE%202023-11-30%2002:43:28.jpg
+
 
 During the execution of this task, I acquired valuable insights:
 
